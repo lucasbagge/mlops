@@ -7,6 +7,7 @@ authors = ["lucasbagge <lucasbagge@hotmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 pandas = "^1.4.3"
+prefect = ">=2.0b"
 
 
 [tool.poetry.dev-dependencies]

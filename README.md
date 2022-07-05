@@ -4,6 +4,12 @@
 
 When your Python project relies on external packages, you need to make sure you’re using the right version of each package. After an update, a package might not work as it did before the update. A dependency manager like Python Poetry helps you specify, install, and resolve external packages in your projects. This way, you can be sure that you always work with the right dependency version on every machine.
 
+### Why?
+
+A quate found on github:
+
+> Packaging systems and dependency management in Python are rather convoluted and hard to understand for newcomers. Even for seasoned developers it might be cumbersome at times to create all files needed in a Python project: setup.py, requirements.txt, setup.cfg, MANIFEST.in and Pipfile. So I wanted a tool that would limit everything to a single configuration file to do: dependency management, packaging and publishing.It takes inspiration in tools that exist in other languages, like composer (PHP) or cargo (Rust). And, finally, I started poetry to bring another exhaustive dependency resolver to the Python community apart from Conda's.
+
 ### Create a New Poetry Project
 
 You can create a new Poetry project by using the new command and a project name as an argument. In this tutorial, the project is called rp-poetry. Create the project, and then move into the newly created directory (for this we will use it as our mangement in the mlops work building):
